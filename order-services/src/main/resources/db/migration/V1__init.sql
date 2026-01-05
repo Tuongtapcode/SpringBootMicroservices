@@ -4,5 +4,5 @@ CREATE TABLE IF NOT EXISTS t_orders (
     `sku_code` varchar(255) DEFAULT NULL,
     `price` decimal(19, 2) DEFAULT NULL,
     `quantity` int(11) DEFAULT NULL,
-    PRIMARY KEY (id)
+    PRIMARY KEY (`id`)
 );
