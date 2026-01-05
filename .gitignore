@@ -1,29 +1,28 @@
 ############################
-# Java / Maven
+# Java / Maven (ALL services)
 ############################
-*.class
-*.log
-target/
-!.mvn/wrapper/maven-wrapper.jar
+**/*.class
+**/*.log
+**/target/
 
 ############################
 # Maven Wrapper
 ############################
-.mvn/
+**/.mvn/
+!**/.mvn/wrapper/maven-wrapper.jar
 
 ############################
 # Spring Boot
 ############################
-*.jar
-*.war
-*.ear
+**/*.jar
+**/*.war
+**/*.ear
 
 ############################
-# Docker / Database
+# Docker / Database (runtime)
 ############################
-mysql-data/
-order-services/mysql-data/
-docker-data/
+**/mysql-data/
+**/docker-data/
 
 ############################
 # Environment variables
@@ -34,9 +33,9 @@ docker-data/
 ############################
 # IDE
 ############################
-.idea/
-.vscode/
-*.iml
+**/.idea/
+**/.vscode/
+**/*.iml
 
 ############################
 # OS
